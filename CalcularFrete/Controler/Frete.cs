@@ -33,7 +33,7 @@ namespace CalcularFrete.Controler
                 case "BA": this.frete = 0.08m; break;
                 case "MG": this.frete = 0.08m; break;
                 case "PE": this.frete = 0.09m; break;
-                case "PA": this.frete = 0.09m; break;
+                case "PA": this.frete = 0.010m; break;
                 case "RS": this.frete = 0.10m; break;
 
             }

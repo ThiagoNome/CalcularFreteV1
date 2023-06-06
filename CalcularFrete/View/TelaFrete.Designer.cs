@@ -83,6 +83,7 @@
             // lbResultado
             // 
             this.lbResultado.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lbResultado.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbResultado.Location = new System.Drawing.Point(12, 206);
             this.lbResultado.Name = "lbResultado";
             this.lbResultado.Size = new System.Drawing.Size(394, 124);
@@ -106,6 +107,7 @@
             // 
             this.txtFrete.Location = new System.Drawing.Point(92, 121);
             this.txtFrete.Name = "txtFrete";
+            this.txtFrete.ReadOnly = true;
             this.txtFrete.Size = new System.Drawing.Size(294, 23);
             this.txtFrete.TabIndex = 7;
             // 
@@ -140,6 +142,7 @@
             // 
             // TelaFrete
             // 
+            this.AcceptButton = this.btnCalcular;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(418, 339);
